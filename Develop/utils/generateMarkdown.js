@@ -33,7 +33,10 @@ function generateMarkdown(data) {
   * [Contribution](#contribution)
   * [Questions](#questions)
 
-    
+  ---
+
+  ## Contributing
+  If you'd like to contribute, please contact me via the links in the [Questions](#questions) section below.
   ---
 
   ## Installation

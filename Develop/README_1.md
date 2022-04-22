@@ -1,8 +1,8 @@
-# title
+# README Generator
 
-  ![badge](https://img.shields.io/badge/License-MIT-brightgreen.svg)
+  ![badge](https://img.shields.io/badge/License-ISC-brightgreen.svg)
   ## Description 
-  password gen
+  A command line application that generates a professionally formatted README.md file based on a series of user inputs
 
 
   ## Table of Contents
@@ -12,7 +12,10 @@
   * [Contribution](#contribution)
   * [Questions](#questions)
 
-    
+  ---
+
+  ## Contributing
+  If you'd like to contribute, please contact me via the links in the [Questions](#questions) section below.
   ---
 
   ## Installation
@@ -26,5 +29,5 @@
 
   GitHub: [kimester](https://github.com/kimester)
 
-  Email: [](mailto:)
+  Email: [kimester1996@gmail.com](mailto:kimester1996@gmail.com)
 
