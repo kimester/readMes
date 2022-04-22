@@ -6,27 +6,56 @@ const generateMarkdown = require('./utils/generateMarkdown');
 const questions = [
   {
     type: "input",
-    message: "Please enter the name for your project",
-    name: "title",
+    message: "Please enter the title of your project",
+    name: "Title",
   },
   {
     type: "input",
     message: "Enter the description for your project",
-    name: "description",
+    name: "Description",
   },
   {
     type: "input",
-    message: "Enter the description for your project",
-    name: "description",
+    message: "Enter the table of contents for your project",
+    name: "Table/Contents",
   },
   {
     type: "input",
-    message: "Enter the description for your project",
-    name: "description",
+    message: "Enter the installation for your project",
+    name: "InstallationInstructions",
+    default: "npm install"
+  },
+  {
+    type: "input",
+    message: "Enter the Usage for your project",
+    name: "Usage",
+  },
+  {
+    type: "list",
+    message: "Enter the License for your project",
+    name: "License",
+    choices: ["MIT", "Apache 2.0", "Mozilla 2.0", "None"]
+  },
+  {
+    type: "input",
+    message: "Enter the tests for your project",
+    name: "Tests",
+    default: "npm run tests"
+  },
+  {
+    type: "input",
+    //add instructions on how to reach me with additional quiestions! 
+    message: "Please enter your email address to reach you ?  ",
+    name: "email",
+  },
+  {
+    type: "input",
+    message: "Please enter your github username ",
+    name: "githubusername",
   },
   {
     type: "confirm",
-    message: "Enter Features",
+    message: "Do you confirm",
     name: "description",
   },
 ];
@@ -49,7 +78,7 @@ const convertData = generateMarkdown(answers);
 console.log(convertData);
 
         //write to to a file 
-        writeToFile("READMe.md", convertData); 
+        writeToFile("README_1.md", convertData); 
     })
 
     .catch((error) => console.log(error));
