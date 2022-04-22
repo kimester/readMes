@@ -1,4 +1,4 @@
-# README Generator
+# ReadMes
 
   ![badge](https://img.shields.io/badge/License-ISC-brightgreen.svg)
   ## Description 
@@ -29,5 +29,5 @@
 
   GitHub: [kimester](https://github.com/kimester)
 
-  Email: [kimester1996@gmail.com](mailto:kimester1996@gmail.com)
+  Email: [kimester@gmail.com](mailto:kimester@gmail.com)
 
